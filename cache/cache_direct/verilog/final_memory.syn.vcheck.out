@@ -1,0 +1,15 @@
+Line 76: Bad keyword integer
+Line 77: Bad keyword integer
+Line 78: Bad keyword integer
+Warning: Line 92 shifting by a constant value (ok except for HW2)
+Warning: Line 92 shifting by a constant value (ok except for HW2)
+Line 105: Bad keyword initial
+Line 106: begin without always/case
+Line 110: Bad keyword posedge
+Line 111: Bad keyword if
+Line 127: Bad keyword else
+Line 128: Bad keyword if
+Warning: Line 129 shifting by a constant value (ok except for HW2)
+Warning: Line 130 shifting by a constant value (ok except for HW2)
+Line 110: Always without case(x)
+End of file /home/aniruddha/cache/cache_direct/verilog/final_memory.syn.v. Hash = -1001688971

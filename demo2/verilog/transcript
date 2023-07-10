@@ -1,0 +1,59 @@
+# vsim -c proc_hier_pbench -lib __work -voptargs="+acc" -wlf dump.wlf -do "log -howmany -rec /* ; run -all" 
+# Start time: 21:20:22 on Nov 13,2022
+# //  ModelSim DE 10.7c Aug 17 2018Linux 5.15.0-52-generic
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim DE and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading __work.proc_hier_pbench
+# Loading __work.proc_hier
+# Loading __work.clkrst
+# Loading __work.proc
+# Loading __work.fetch
+# Loading __work.reg_16b
+# Loading __work.memory2c
+# Loading __work.cla_16b
+# Loading __work.cla_4b
+# Loading __work.IFID
+# Loading __work.decode
+# Loading __work.control
+# Loading __work.regFile
+# Loading __work.decode3_8
+# Loading __work.hazard_detection_unit
+# Loading __work.IDEX
+# Loading __work.reg_1b
+# Loading __work.dff
+# Loading __work.mux2_1
+# Loading __work.reg_5b
+# Loading __work.reg_2b
+# Loading __work.execute
+# Loading __work.mux4_1_16b
+# Loading __work.alu
+# Loading __work.shifter
+# Loading __work.mux4_1_3b
+# Loading __work.branch
+# Loading __work.jump
+# Loading __work.EXMEM
+# Loading __work.reg_3b
+# Loading __work.memory
+# Loading __work.MEMWB
+# Loading __work.wb
+# Loading __work.mux8_1
+# Loading __work.mux4_1
+# log -howmany -rec /* 
+# 10828
+#  run -all
+# Hello world...simulation starting
+# See verilogsim.log and verilogsim.ptrace for output
+# ** Note: $finish    : proc_hier_pbench.v(115)
+#    Time: 10805 ns  Iteration: 0  Instance: /proc_hier_pbench
+# End time: 21:20:22 on Nov 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

@@ -1,0 +1,215 @@
+
+WISCalculator v1.0
+Author Derek Hower (drh5@cs.wisc.edu)
+Type "help" for more information
+
+Loading program...
+Executing...
+lbi r0, 1
+INUM:        0 PC: 0x0000 REG: 0 VALUE: 0x0001
+nop
+INUM:        1 PC: 0x0002
+nop
+INUM:        2 PC: 0x0004
+nop
+INUM:        3 PC: 0x0006
+nop
+INUM:        4 PC: 0x0008
+nop
+INUM:        5 PC: 0x000a
+lbi r1, 2
+INUM:        6 PC: 0x000c REG: 1 VALUE: 0x0002
+nop
+INUM:        7 PC: 0x000e
+nop
+INUM:        8 PC: 0x0010
+nop
+INUM:        9 PC: 0x0012
+nop
+INUM:       10 PC: 0x0014
+nop
+INUM:       11 PC: 0x0016
+add r2, r1, r0
+INUM:       12 PC: 0x0018 REG: 2 VALUE: 0x0003
+nop
+INUM:       13 PC: 0x001a
+nop
+INUM:       14 PC: 0x001c
+nop
+INUM:       15 PC: 0x001e
+nop
+INUM:       16 PC: 0x0020
+nop
+INUM:       17 PC: 0x0022
+sub r2, r1, r0
+INUM:       18 PC: 0x0024 REG: 2 VALUE: 0xffff
+nop
+INUM:       19 PC: 0x0026
+nop
+INUM:       20 PC: 0x0028
+nop
+INUM:       21 PC: 0x002a
+nop
+INUM:       22 PC: 0x002c
+nop
+INUM:       23 PC: 0x002e
+nop
+INUM:       24 PC: 0x0030
+xor r2, r1, r0
+INUM:       25 PC: 0x0032 REG: 2 VALUE: 0x0003
+nop
+INUM:       26 PC: 0x0034
+nop
+INUM:       27 PC: 0x0036
+nop
+INUM:       28 PC: 0x0038
+nop
+INUM:       29 PC: 0x003a
+nop
+INUM:       30 PC: 0x003c
+nop
+INUM:       31 PC: 0x003e
+andn r2, r1, r0
+INUM:       32 PC: 0x0040 REG: 2 VALUE: 0x0002
+nop
+INUM:       33 PC: 0x0042
+nop
+INUM:       34 PC: 0x0044
+nop
+INUM:       35 PC: 0x0046
+nop
+INUM:       36 PC: 0x0048
+nop
+INUM:       37 PC: 0x004a
+nop
+INUM:       38 PC: 0x004c
+rol r2, r1, r0
+INUM:       39 PC: 0x004e REG: 2 VALUE: 0x0004
+nop
+INUM:       40 PC: 0x0050
+nop
+INUM:       41 PC: 0x0052
+nop
+INUM:       42 PC: 0x0054
+nop
+INUM:       43 PC: 0x0056
+nop
+INUM:       44 PC: 0x0058
+nop
+INUM:       45 PC: 0x005a
+sll r2, r1, r0
+INUM:       46 PC: 0x005c REG: 2 VALUE: 0x0004
+nop
+INUM:       47 PC: 0x005e
+nop
+INUM:       48 PC: 0x0060
+nop
+INUM:       49 PC: 0x0062
+nop
+INUM:       50 PC: 0x0064
+nop
+INUM:       51 PC: 0x0066
+nop
+INUM:       52 PC: 0x0068
+ror r2, r1, r0
+INUM:       53 PC: 0x006a REG: 2 VALUE: 0x0001
+nop
+INUM:       54 PC: 0x006c
+nop
+INUM:       55 PC: 0x006e
+nop
+INUM:       56 PC: 0x0070
+nop
+INUM:       57 PC: 0x0072
+nop
+INUM:       58 PC: 0x0074
+nop
+INUM:       59 PC: 0x0076
+srl r2, r1, r0
+INUM:       60 PC: 0x0078 REG: 2 VALUE: 0x0001
+nop
+INUM:       61 PC: 0x007a
+nop
+INUM:       62 PC: 0x007c
+nop
+INUM:       63 PC: 0x007e
+nop
+INUM:       64 PC: 0x0080
+nop
+INUM:       65 PC: 0x0082
+nop
+INUM:       66 PC: 0x0084
+seq r2, r1, r0
+INUM:       67 PC: 0x0086 REG: 2 VALUE: 0x0000
+nop
+INUM:       68 PC: 0x0088
+nop
+INUM:       69 PC: 0x008a
+nop
+INUM:       70 PC: 0x008c
+nop
+INUM:       71 PC: 0x008e
+nop
+INUM:       72 PC: 0x0090
+nop
+INUM:       73 PC: 0x0092
+slt r2, r1, r0
+INUM:       74 PC: 0x0094 REG: 2 VALUE: 0x0000
+nop
+INUM:       75 PC: 0x0096
+nop
+INUM:       76 PC: 0x0098
+nop
+INUM:       77 PC: 0x009a
+nop
+INUM:       78 PC: 0x009c
+nop
+INUM:       79 PC: 0x009e
+nop
+INUM:       80 PC: 0x00a0
+sle r2, r1, r0
+INUM:       81 PC: 0x00a2 REG: 2 VALUE: 0x0000
+nop
+INUM:       82 PC: 0x00a4
+nop
+INUM:       83 PC: 0x00a6
+nop
+INUM:       84 PC: 0x00a8
+nop
+INUM:       85 PC: 0x00aa
+nop
+INUM:       86 PC: 0x00ac
+nop
+INUM:       87 PC: 0x00ae
+sco r2, r1, r0
+INUM:       88 PC: 0x00b0 REG: 2 VALUE: 0x0000
+nop
+INUM:       89 PC: 0x00b2
+nop
+INUM:       90 PC: 0x00b4
+nop
+INUM:       91 PC: 0x00b6
+nop
+INUM:       92 PC: 0x00b8
+nop
+INUM:       93 PC: 0x00ba
+nop
+INUM:       94 PC: 0x00bc
+btr r2, r1
+INUM:       95 PC: 0x00be REG: 2 VALUE: 0x4000
+nop
+INUM:       96 PC: 0x00c0
+nop
+INUM:       97 PC: 0x00c2
+nop
+INUM:       98 PC: 0x00c4
+nop
+INUM:       99 PC: 0x00c6
+nop
+INUM:      100 PC: 0x00c8
+nop
+INUM:      101 PC: 0x00ca
+halt
+program halted
+INUM:      102 PC: 0x00cc
+Program Finished
